@@ -20,75 +20,72 @@
                                 <rect key="frame" x="10" y="398" width="394" height="100"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="s5L-8z-k0m">
-                                        <rect key="frame" x="100" y="37.5" width="194" height="25"/>
+                                        <rect key="frame" x="100" y="0.0" width="194" height="100"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="zWo-WZ-E6c">
-                                                <rect key="frame" x="0.0" y="0.0" width="21" height="25"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="38" height="100"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCI-bn-2p8">
-                                                        <rect key="frame" x="0.0" y="0.0" width="10.5" height="25"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="16"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="19" height="100"/>
+                                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="30"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JmX-ar-Gzj">
-                                                        <rect key="frame" x="10.5" y="0.0" width="10.5" height="25"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="16"/>
+                                                        <rect key="frame" x="19" y="0.0" width="19" height="100"/>
+                                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="30"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kxk-Lt-ZNc">
-                                                <rect key="frame" x="50.5" y="0.0" width="6.5" height="25"/>
+                                                <rect key="frame" x="55" y="0.0" width="6.5" height="100"/>
                                                 <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="kAD-ML-tma">
-                                                <rect key="frame" x="86.5" y="0.0" width="21" height="25"/>
+                                                <rect key="frame" x="78" y="0.0" width="38" height="100"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2M-S5-eKE">
-                                                        <rect key="frame" x="0.0" y="0.0" width="10.5" height="25"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="16"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="19" height="100"/>
+                                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="30"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OYB-zS-BcB">
-                                                        <rect key="frame" x="10.5" y="0.0" width="10.5" height="25"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="16"/>
+                                                        <rect key="frame" x="19" y="0.0" width="19" height="100"/>
+                                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="30"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sw6-Db-g4k">
-                                                <rect key="frame" x="137" y="0.0" width="6.5" height="25"/>
+                                                <rect key="frame" x="133" y="0.0" width="6.5" height="100"/>
                                                 <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wkk-s3-h36">
-                                                <rect key="frame" x="173" y="0.0" width="21" height="25"/>
+                                                <rect key="frame" x="156" y="0.0" width="38" height="100"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="noa-FB-NJV">
-                                                        <rect key="frame" x="0.0" y="0.0" width="10.5" height="25"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="16"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="19" height="100"/>
+                                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="30"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Brj-r1-nXM">
-                                                        <rect key="frame" x="10.5" y="0.0" width="10.5" height="25"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="16"/>
+                                                        <rect key="frame" x="19" y="0.0" width="19" height="100"/>
+                                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="30"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="25" id="3ng-7g-bWY"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -98,6 +95,7 @@
                                     <constraint firstItem="s5L-8z-k0m" firstAttribute="leading" secondItem="ynK-QH-jfQ" secondAttribute="leading" constant="100" id="HRu-6l-iBQ"/>
                                     <constraint firstItem="s5L-8z-k0m" firstAttribute="centerY" secondItem="ynK-QH-jfQ" secondAttribute="centerY" id="Kg6-rS-tEn"/>
                                     <constraint firstAttribute="trailing" secondItem="s5L-8z-k0m" secondAttribute="trailing" constant="100" id="SCj-DF-7Tn"/>
+                                    <constraint firstItem="s5L-8z-k0m" firstAttribute="height" secondItem="ynK-QH-jfQ" secondAttribute="height" id="UYS-Er-Kt6"/>
                                 </constraints>
                             </view>
                         </subviews>

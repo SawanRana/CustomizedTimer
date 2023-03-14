@@ -106,7 +106,7 @@ extension UIView {
     func transition(_ duration: TimeInterval) {
         let animation = CATransition()
         animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
-        animation.type = CATransitionType.push
+        animation.type = CATransitionType.moveIn
         animation.subtype = CATransitionSubtype.fromTop
         animation.duration = duration
         layer.add(animation, forKey: CATransitionType.push.rawValue)
